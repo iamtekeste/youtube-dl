@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'Roboto-Medium';
+	src:url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto-Regular', -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+div.container {
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+}
+section {
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'Roboto-Regular';
+}
+#url-input {
+	height: 35px;
+	width: 423px;
+  display: inline-block;
+	font-size: 18px;
+  padding-left: 5px;
+	font-family: 'Roboto-Regular';
+}
+input#url-input:focus {
+    outline: none;
+}
+#download-btn {
+	font-family: 'Roboto-Regular';
+	background-color: #3498db;
+  padding: 13px 40px;
+  display: inline-block;
+  margin-left: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+.progress-bar {
+	color: green;
+	font-size: 16px;
+	font-style: italic;
+}
+.error-message {
+	color: red;
+	font-size: 14px;
+	margin-top: 5px;
+	display: none;
+}
+.video-info {
+    text-align: left;
+    margin-top: 30px;
+}
+.progress-bar {
+	width: 0%;
+	background-color: #27ae60;
+	height: 20px;
+	transition: all .3s;
+}
+.video-thumbnail {
+    display: inline-block;
+}
+.video-title {
+	display: inline-block;
+	max-width: 247px;
+	vertical-align: top;
+	color: #333;
+	font-size: 17px;
+	font-weight: 500;
+	margin-left: 13px;
+	font-family: 'Roboto-Medium';
+}
+footer {
+    position: fixed;
+    bottom: 28px;
+    left: 0;
+    right: 0;
+}
+span.tear {
+    color: red;
+}
+/*utility classes*/
+.hide {
+	display: none;
+}
